@@ -1,0 +1,43 @@
+
+html {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #275468;
+}
+
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+section {
+    display: flex;
+    border: 1px solid #FFC701;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    margin: 4px;
+
+}
+
+.button {
+    background-color: #FFC701;
+    color: #ffffff;
+    font-size: 12px;
+    border: none;
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #275468;
+    color: #FFC701;
+}
